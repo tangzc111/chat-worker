@@ -28,12 +28,6 @@ npm install
 
 ### 3. 配置环境变量
 
-复制 `.env.example` 到 `.env` 并填入你的配置:
-
-```bash
-cp .env.example .env
-```
-
 编辑 `.env` 文件:
 
 ```env
