@@ -12,7 +12,7 @@ app.use('/*', cors());
 // Welcome endpoint
 app.get('/', (c) => {
   return c.json({
-    message: 'Welcome to Koa + GraphQL + DeepSeek API on Cloudflare Workers',
+    message: 'Welcome to honos + GraphQL + DeepSeek API on Cloudflare Workers',
     endpoints: {
       graphql: '/graphql',
       health: '/health',

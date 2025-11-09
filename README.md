@@ -1,4 +1,4 @@
-# Koa GraphQL DeepSeek API
+# GraphQL DeepSeek API
 
 一个基于 Cloudflare Workers 的 GraphQL API 服务，集成了 DeepSeek AI，使用 Hono 框架构建。
 
@@ -88,7 +88,7 @@ npm run deploy
 
 ```json
 {
-  "message": "Welcome to Koa + GraphQL + DeepSeek API on Cloudflare Workers",
+  "message": "Welcome to hono + GraphQL + DeepSeek API on Cloudflare Workers",
   "endpoints": {
     "graphql": "/graphql",
     "health": "/health"
