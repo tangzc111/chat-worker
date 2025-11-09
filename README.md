@@ -32,8 +32,8 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/tangzc111/koa-graphql-deepseek.git
-cd koa-graphql-deepseek
+git clone https://github.com/tangzc111/chat-worker.git
+cd chat-worker
 ```
 
 ### 2. 安装依赖
@@ -232,7 +232,7 @@ print(response.json())
 ## 项目结构
 
 ```
-koa-graphql-deepseek/
+chat-worker/
 ├── src/
 │   ├── index.js              # Workers 主入口（Hono 应用）
 │   ├── graphql/
@@ -256,7 +256,7 @@ koa-graphql-deepseek/
 Cloudflare Workers 配置文件：
 
 ```toml
-name = "koa-graphql-deepseek"
+name = "chat-worker"
 main = "src/index.js"
 compatibility_date = "2024-01-01"
 

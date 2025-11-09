@@ -62,17 +62,17 @@ npx wrangler deploy
 
 部署成功后，会显示你的 Worker URL，例如：
 ```
-https://koa-graphql-deepseek.<your-subdomain>.workers.dev
+https://chat-worker.<your-subdomain>.workers.dev
 ```
 
 ### 5. 测试部署
 
 ```bash
 # 测试健康检查
-curl https://koa-graphql-deepseek.<your-subdomain>.workers.dev/health
+curl https://chat-worker.<your-subdomain>.workers.dev/health
 
 # 测试 GraphQL
-curl -X POST https://koa-graphql-deepseek.<your-subdomain>.workers.dev/graphql \
+curl -X POST https://chat-worker.<your-subdomain>.workers.dev/graphql \
   -H "Content-Type: application/json" \
   -d '{"query":"{ deepseekStatus { status timestamp } }"}'
 ```
@@ -121,7 +121,7 @@ npx wrangler tail
 ## 项目结构
 
 ```
-koa-graphql-deepseek/
+chat-worker/
 ├── src/
 │   ├── index.js              # Workers 主入口（Hono 应用）
 │   ├── graphql/

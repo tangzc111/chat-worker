@@ -1,5 +1,5 @@
 {
-  "name": "koa-graphql-deepseek",
+  "name": "chat-worker",
   "version": "1.0.0",
   "description": "GraphQL API with DeepSeek AI on Cloudflare Workers",
   "main": "src/index.js",
